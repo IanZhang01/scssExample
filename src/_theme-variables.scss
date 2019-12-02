@@ -1,0 +1,65 @@
+
+$primary-color-dark:           #0288D1;
+$primary-color:                #03A9F4;
+$primary-color-light:          #B3E5FC;
+$primary-color-text:           #FFFFFF;
+$primary-accent-color:         #CDDC39;
+$primary-text-color:           #212121;
+$primary-secondary-text-color: #757575;
+$primary-divider-color:        #BDBDBD;
+
+
+$gray-color-dark:           #455A64;
+$gray-color:                #607D8B;
+$gray-color-light:          #CFD8DC;
+$gray-color-text:           #FFFFFF;
+$gray-accent-color:         #607D8B;
+$gray-text-color:           #212121;
+$gray-secondary-text-color: #757575;
+$gray-divider-color:        #BDBDBD;
+
+
+$themes: (
+    light-sm: (
+        sizeSM : $sm-size-sm,
+        sizeMD : $sm-size-md,
+        sizeBG : $sm-size-bg,
+        mainBackgorund : $primary-color-dark,
+        textColor : $primary-color-text
+    ),
+    light-md: (
+        sizeSM : $md-size-md,
+        sizeMD : $md-size-md,
+        sizeBG : $md-size-md,
+        mainBackgorund : $primary-color-dark,
+        textColor : $primary-color-text
+    ),
+    light-bg: (
+        sizeSM : $bg-size-sm,
+        sizeMD : $bg-size-md,
+        sizeBG : $bg-size-bg,
+        mainBackgorund : $primary-color-dark,
+        textColor : $primary-color-text
+    ),
+    dark-sm: (
+        sizeSM : $sm-size-sm,
+        sizeMD : $sm-size-md,
+        sizeBG : $sm-size-bg,
+        mainBackgorund : $gray-color-dark,
+        textColor : $gray-color-text
+    ),
+    dark-md: (
+        sizeSM : $md-size-sm,
+        sizeMD : $md-size-md,
+        sizeBG : $md-size-bg,
+        mainBackgorund : $gray-color-dark,
+        textColor : $gray-color-text
+    ),
+    dark-bg: (
+        sizeSM : $bg-size-sm,
+        sizeMD : $bg-size-md,
+        sizeBG : $bg-size-bg,
+        mainBackgorund : $gray-color-dark,
+        textColor : $gray-color-text
+    ),
+)
