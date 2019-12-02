@@ -4,7 +4,6 @@
 @import './mixin/theme-mixin';
 
 .btn {
-    font-weight: $md-size-sm;
     @include themify($themes) {
         color: themed('textColor');  
         background-color: themed('mainBackgorund');
